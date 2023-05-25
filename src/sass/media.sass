@@ -1,0 +1,989 @@
+@media screen and (max-width: 1400px)
+   #popup-calc .popup-call__box
+      width: 1200px
+      margin-left: -600px
+   .calc__form input
+      display: flex
+      flex: 1 0 auto 
+      max-width: 300px
+      margin-left: 20px
+@media screen and (max-width: 1199px)
+   .menu-btn 
+      position: absolute
+      right: 25px
+      top: 15px
+      z-index: 22
+      overflow: hidden
+      background: url(/img/burger.svg) no-repeat center center
+      width: 34px
+      height: 34px
+      background-color: #F0F6FF
+      border-radius: 7px
+      display: flex
+      align-items: center
+      justify-content: center
+   .menu 
+      position: fixed
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      padding: 9px 0px 0 
+      background: #FFFFFF
+      transform: translateX(-100%)
+      transition: transform 0.5s
+      z-index: 10
+      overflow: hidden
+      .whats
+         display: flex
+         position: relative
+         right: 0
+         bottom: 0
+         opacity: 1
+         font-weight: 600
+         font-size: 16px
+         line-height: 160%
+         font-feature-settings: 'pnum' on, 'lnum' on
+         color: #071934
+         border-radius: 10px
+         img
+            margin-left: 0
+            margin-right: 9px
+      .nav__list
+         border-top: 1px solid #D2DBE8
+         border-bottom: 1px solid #D2DBE8
+         padding-top: 30px
+         padding-bottom: 20px
+         margin: 11px 0 0 0px
+         padding-left: 10px
+         li
+            margin-bottom: 30px
+            &:last-child
+               margin-bottom: 0
+            a 
+               font-size: 20px
+               font-weight: 700
+      .nav__center
+         left: 0
+      .nav__name
+         display: block
+         margin-bottom: 14px
+      .nav__flex
+         display: block
+         a 
+            display: block
+            margin-bottom: 10px
+            margin-left: 0
+            border: none
+      .nav__right
+         display: block
+         text-align: left
+         margin-bottom: 30px
+      .nav__logo 
+         padding-left: 10px
+      .menu__bottom 
+         margin-left: 10px
+         padding-top: 30px
+   .whats
+      display: none
+   .menu.active
+      transform: translateX(0)
+   .menu-btn.active 
+      overflow: visible
+      position: fixed
+      right: 25px
+      top: 15px
+      background: url(/img/bur.svg) no-repeat 10px 10px
+      background-color: #F0F6FF
+   .menu-btn, .menu
+      display: block
+   .header__fig2 
+      position: relative
+      right: 0
+      top: 0
+      width: 60%
+      margin: 0 auto -60px
+   .header__box
+      flex-direction: column
+      align-items: center
+   .header__wrap
+      padding-top: 0
+   .nav__left p
+      display: none
+   .nav__flex
+      display: none
+   .nav__name
+      display: none
+   .nav__right
+      display: none
+   .nav__bottom
+      display: none
+   .info__box
+      align-items: center
+      justify-content: center
+   .info__item
+      margin-bottom: 20px
+   .now__flex
+      flex-direction: column
+      align-items: center
+   .now__item 
+      width: 63%
+      margin-bottom: 30px
+   .now__row
+      justify-content: center
+   .now__bottom
+      flex-direction: column
+   .now__info
+      margin-top: 30px
+   .item__pic
+      width: 100%
+      height: 250px
+      object-fit: cover
+   .item .swiper1 .swiper-slide
+      height: auto
+   .item__wrap
+      flex-direction: column
+      display: flex
+      height: auto
+   .item__box
+      flex-direction: column 
+      display: flex
+      height: auto
+   .item__block 
+      margin-left: 0
+      max-width: 100%
+      width: 100%
+   .item__man 
+      position: relative
+      bottom: 0
+      left: 0
+      border-radius: 30px 30px 0 0
+      width: 100%
+      object-fit: cover 
+      height: 330px
+   .item__box
+      padding: 0 0 20px
+   .item__man2 
+      position: absolute
+      left: 50%
+      bottom: inherit
+      top: -49px
+      margin-left: -230px
+   .item__line
+      margin-left: 30px
+   .item__title
+      margin-left: 30px
+   .get__box
+      align-items: center
+      justify-content: center
+   .what__box
+      padding: 50px 20px
+   .what__list
+      max-width: 509px
+   .what .menu3.active
+      top: -55px
+   .what .menu-btn3.active
+      top: -43px
+   .how__wrap
+      margin-right: 0
+      margin-bottom: 10px
+   .how__box
+      flex-direction: column
+      align-items: center
+   .about__box
+      flex-direction: column
+      align-items: center
+   .about__content 
+      margin-left: 0
+      margin-top: -40px
+   .order__box img
+      position: relative
+      margin: 0 auto
+      display: block
+      top: -41px
+   .order__box
+      height: auto
+      display: flex
+      flex-direction: column
+   .order__content
+      margin: 0 auto
+      padding-top: 0 
+   footer .nav__left p
+      display: block
+   .footer 
+      .nav__logo
+         margin-right: 0
+      .nav__left
+         flex-direction: column
+         align-items: flex-start
+   .calc__form
+      flex-direction: column
+   .calc__left
+      width: 100%
+   .calc__right 
+      width: 100%
+   #popup-calc .popup-call__box 
+      width: 900px
+      margin-left: -450px
+   .ab__pic
+      position: absolute
+      top: -553px
+      left: 50%
+      margin-left: -219px
+   .ab__box
+      position: relative
+   .ab 
+      h2
+         margin-bottom: 550px
+@media ( max-width: 991px )
+   input, textarea, select
+      -webkit-appearance: none
+      -moz-appearance: none
+      appearance: none
+   .header__flex
+      flex-direction: column
+      align-items: flex-start
+   .header__block
+      margin-right: 0
+      margin-bottom: 10px
+   .info__block img
+      left: 0
+      position: relative 
+      display: block
+      margin: 0 auto 
+      text-align: center
+   .info__block
+      height: auto
+      display: flex
+      flex-direction: column
+      padding: 30px 20px
+      text-align: center
+   .now__el:first-child
+      margin-right: 20px
+   .now__info
+      flex-direction: column-reverse
+   .now__btn 
+      width: 206px
+      height: 50px
+      margin-left: 0
+      margin-bottom: 10px
+   .now__text
+      margin-right: 0
+      margin-top: 10px
+   h2 
+      font-size: 30px
+   .item__arrows
+      margin-left: 10px
+   .local__links
+      flex-direction: column
+   .local__links li
+      width: 78%
+      margin-bottom: 10px
+   .get__wrap
+      flex-direction: column
+      height: auto
+      padding: 20px
+   .get__content
+      margin-left: 0
+      margin-top: 20px
+   .what__pic 
+      position: absolute
+      right: 0
+      bottom: inherit
+      mix-blend-mode: darken
+      top: 0
+      width: 100%
+      height: 200px
+      img 
+         width: 100%
+         height: 100%
+         object-fit: cover
+   .what__box  
+      padding: 225px 20px 50px
+   .what__list li
+      font-size: 14px
+      line-height: 135%
+      margin-bottom: 25px
+   .what__list li:before
+      top: 8px
+   .what .menu-btn3
+      display: none
+   .what .ww2
+      display: none
+   .what .menu2, .what .menu3
+      top: -149px
+      right: -190px
+      width: 336px
+   .what .menu-btn2.active, .what .menu-btn3.active
+      right: -175px
+      top: -138px
+   .what__btn
+      margin-top: 0
+   .faq .accordeon__button
+      padding: 20px 64px 20px 20px
+   .faq .accordeon__button:after 
+      left: inherit
+      bottom: inherit
+      right: 36px
+      top: 35px
+   .faq .accordeon__button.active:after 
+      left: inherit
+      bottom: inherit
+   .faq .panel__text
+      padding: 30px 23px
+   .footer__bottom
+      flex-direction: column 
+      align-items: center
+   .footer__policy
+      right: 0
+      margin: 30px 0
+   .footer__list 
+      margin: 0px 73px 0 55px
+   .what .ww
+      top: -4px
+   .popup__fig1
+      display: none
+   .popup-call__box
+      width: 700px
+      margin-left: -350px
+      padding: 28px 10px 20px
+   .popup__wrap
+      margin: 0 auto 
+      width: 100%
+      max-width: 400px
+   #popup-calc .popup-call__box 
+      width: 700px
+      margin-left: -350px
+   .art__block
+      width: 100%
+   .error__box
+      padding-bottom: 50px
+@media screen and (max-width: 767px)
+   .header__fig2
+      width: 74%
+   h1 
+      font-size: 36px
+   .info__pic
+      width: 32%
+   .info__title
+      font-size: 21px
+   .now__item label
+      white-space: inherit
+   .now__item
+      width: 100%
+   .now__row
+      flex-direction: column
+      margin-bottom: 20px
+   .now__el:first-child
+      margin-right: 0
+      margin-bottom: 30px
+   .now__btn
+      width: 100% 
+   .now__info
+      width: 100%
+   .chous
+      width: 100%
+   .dada 
+      width: 100%
+   .item .swiper1
+      width: 115.7%
+      overflow: visible
+      .swiper-slide:last-child
+         opacity: 0
+   .item__title 
+      margin-bottom: 20px
+      font-size: 30px
+      line-height: 130% 
+      margin-top: 20px
+   .get h2 br 
+      display: none
+   .what .ww, .what .menu-btn2, .what .menu-btn3 
+      top: inherit
+      right: inherit
+      left: 159px
+      bottom: 1px
+      width: 20px
+      height: 20px
+   .what .menu2.active, .what .menu3.active 
+      opacity: 1
+      right: inherit
+      left: 3px
+      top: -130px
+   .what__list li
+      font-size: 16px
+   .what .menu-btn2.active, .what .menu-btn3.active 
+      right: inherit
+      top: -125px
+      left: 313px
+   .how__wrap
+      width: 100%
+      padding: 20px
+   h2 
+      line-height: 130%
+   .footer__box
+      flex-direction: column
+      align-items: center
+      text-align: center   
+   .footer .nav__logo
+      margin: 0 auto 10px
+   .footer__list
+      margin: 30px auto
+   .footer__link
+      margin: 0 auto 20px
+   .popup-call__box
+      width: 500px
+      margin-left: -250px
+   #popup-calc .popup-call__box 
+      width: 500px
+      margin-left: -250px
+      padding: 30px 10px
+   .calc__item
+      flex-direction: column
+      align-items: flex-start
+   .calc__form input
+      margin-left: 0
+      margin-top: 10px
+      width: 100%
+      max-width: 100%
+   .calc__item
+      margin-bottom: 20px
+   .selectCF
+      width: 99.5%
+      margin-top: 10px
+   .calc__form .now__row 
+      flex-direction: initial
+      align-items: flex-start
+      justify-content: flex-start
+      margin-top: 10px
+   .calc__item_2
+      margin: 10px 0
+   .now__row label
+      margin-right: 40px
+   .calc__flex 
+      align-items: center
+      margin-top: 20px
+      justify-content: flex-end
+      flex-direction: column-reverse
+   .calc__btn
+      width: 100%
+      margin-bottom: 5px
+   .art__block
+      padding: 20px
+@media screen and (max-width: 576px)
+   button:active, button:focus 
+      outline: none
+   button::-moz-focus-inner 
+      border: 0
+   a:active, a:focus
+      outline: none
+   input, textarea
+      outline: none
+   input:active, textarea:active
+      outline: none
+   input:focusout
+      outline: none
+   .mob 
+      display: block
+   .nav__logo
+      font-size: 20px
+   .container
+      padding: 0 10px
+   .nav__top
+      padding-bottom: 6px
+   .menu-btn
+      right: 11px
+      top: 8px
+   .menu-btn.active
+      right: 11px
+      top: 10px
+   .header__fig2 
+      width: 110%
+      right: 16px
+      top: -23px
+      margin: 0 auto -118px
+   h1 
+      font-size: 22px
+      line-height: 130%
+      position: relative
+      z-index: 3
+      order: 1
+   .header__block
+      width: 100% 
+      height: 39px
+      order: 2
+      p 
+         font-size: 14px
+   .header__block img
+      width: 32px
+      top: -12px
+      left: -12px
+   .header__flex
+      margin-top: 8px
+      order: 2
+   .header__one
+      font-size: 14px
+      line-height: 135%
+      order: 3
+   .header__form
+      flex-direction: column
+      order: 4
+      margin-top: 20px
+   .header__content
+      display: flex  
+      flex-direction: column
+   .header__calc
+      order: 5
+      margin-top: 12px
+   .header__input
+      width: 100%
+      margin-right: 0
+      margin-bottom: 10px
+   .header__btn
+      width: 100%
+   .header__calc
+      width: 100%
+      height: 55px
+      border: 1px solid rgba(255, 255, 255, 0.25)
+      border-radius: 10px
+      align-items: center
+      justify-content: center
+      p 
+         font-size: 14px
+         line-height: 120%
+         width: 68%
+   .header__wrap
+      padding: 0px 0 19px
+   .info 
+      padding: 40px 0 56px
+      &__item
+         padding: 20px
+      &__name 
+         font-size: 22px
+         line-height: 130%
+         margin-bottom: 8px
+         order: 1
+      &__el
+         font-size: 14px
+         line-height: 135%
+         order: 2
+      &__list
+         margin-top: 14px
+         li 
+            font-size: 14px
+      &__item 
+         display: flex
+         flex-direction: column
+         height: auto
+         width: 100%
+      &__pic 
+         order: 3
+         position: relative
+         right: 0
+         bottom: 0
+         width: 100%
+         img 
+            width: 100%
+      &__list 
+         order: 4 
+      &__btn 
+         order: 5
+         width: 100%
+         margin-top: 20px
+      &__text 
+         font-size: 14px
+         line-height: 135%
+   .info__item:nth-child(2) li
+      font-size: 14px
+      line-height: 180%
+   .info__item:nth-child(2) li:before
+      top: 10px
+   .info__block
+      margin-top: 0
+   .info__title 
+      font-size: 20px
+      line-height: 130%
+      margin-bottom: 11px
+   h2 
+      font-size: 20px
+      line-height: 130%
+   .now
+      padding: 30px 0 33px
+      &__box 
+         padding: 20px 10px
+         margin-top: 20px
+      &__item 
+         label 
+            font-size: 14px
+            line-height: 135%
+            font-weight: 400
+      .header__calc
+         order: inherit
+         border: 1px solid rgba(28, 112, 238, 0.25)
+         p 
+            font-weight: 400
+   .now__row label 
+      margin-bottom: 0
+      font-weight: 400
+      font-size: 14px
+      line-height: 135%
+   .now .custom-checkbox + label::before
+      top: 0
+   .now__flex
+      margin-bottom: 0
+   .now__row
+      margin-bottom: 31px
+   .item
+      padding: 40px 0 69px
+      .container
+         position: relative
+      &__nav 
+         font-size: 14px
+         width: 195px
+         height: 29px
+      &__arrows
+         position: absolute
+         top: 577px
+         left: 14px
+         justify-content: space-between
+         width: 92%
+         margin: 0 auto
+         z-index: 5
+      &__row 
+         margin-bottom: 10px
+      &__pic
+         height: 239px
+      .swiper1
+         width: 100%
+      &__content 
+         padding: 11px 20px 30px
+      &__text 
+         font-size: 14px
+         line-height: 135%
+      &__name 
+         margin-bottom: 9px
+      .swiper-pagination1 
+         margin-top: 0
+         position: absolute
+         top: 594px
+      &__box 
+         border-radius: 20px
+      &__man 
+         border-radius: 20px 20px 0 0
+         height: 197px
+      &__wrap 
+         margin-top: 150px
+      &__man2
+         position: absolute
+         left: 50%
+         bottom: inherit
+         top: -25px
+         margin-left: -136px
+         width: 270px
+      &__title 
+         font-size: 20px
+         margin-left: 20px
+         margin-bottom: 30px
+         line-height: 130%
+      &__line 
+         margin-left: 20px
+   .item .swiper1 .swiper-slide:last-child
+      opacity: 1
+   .item__arrows .arr
+      width: 45px
+      height: 45px
+      border-radius: 10px
+      img 
+         width: 19px
+   .item__line p 
+      margin-left: 19px
+      font-weight: 400
+      font-size: 14px
+      line-height: 135%
+   .local 
+      .item__nav
+         width: 219px
+      #map2
+         height: 300px
+      &__links 
+         width: 100%
+      &__name, &__text
+         font-size: 14px
+         line-height: 135%
+   .local__links li
+      width: 100%
+      box-sizing: border-box
+   .get 
+      padding: 60px 0 30px
+      &__item 
+         width: 100%
+         height: auto
+         flex-direction: column 
+         align-items: center
+         text-align: center
+         padding: 30px 20px
+         margin-bottom: 10px
+         p 
+            margin: 20px auto 0
+            font-size: 16px
+            line-height: 135%
+      &__box 
+         margin-top: 32px
+      &__content 
+         p 
+            font-size: 14px
+            line-height: 135%
+      &__wrap 
+         margin-top: 5px
+   .what 
+      padding: 30px 0 38px
+      h2 
+         font-size: 22px
+      &__sub 
+         font-size: 14px
+         line-height: 135%
+         margin-bottom: 14px
+      &__box 
+         border-radius: 20px
+         padding: 122px 20px 20px
+         max-width: 290px 
+         margin: 0 auto 20px
+      &__pic 
+         height: 100px
+      &__top
+         margin-bottom: 20px
+      &__list 
+         padding-left: 0
+      &__btn 
+         width: 100%
+   .what__top p
+      font-size: 20px
+   .what__list li
+      line-height: 135%
+      font-size: 14px
+      margin-bottom: 20px
+   .what .ww, .what .menu-btn2, .what .menu-btn3
+      bottom: 0
+      left: 84px
+   .what .menu2.active, .what .menu3.active 
+      right: inherit
+      left: 50%
+      top: -130px
+      width: 290px
+      margin-left: -145px
+   .what .menu2:before, .what .menu3:before
+      left: 40%
+   .what .menu-btn2.active, .what .menu-btn3.active
+      top: -118px
+      left: 248px
+   .how
+      h2 
+         font-size: 22px
+         line-height: 130%
+         margin-bottom: 16px
+      &__title
+         font-size: 20px
+         line-height: 130%
+      &__list 
+         li 
+            font-size: 14px
+            line-height: 135%
+      &__content 
+         max-width: 100%
+      &__block 
+         padding: 20px
+         margin-bottom: 30px
+      &__el 
+         font-size: 14px
+         line-height: 135%
+         margin-bottom: 21px
+      &__data 
+         font-size: 14px
+         line-height: 135%
+         margin-bottom: 11px
+      &__flex 
+         flex-direction: column
+      &__form 
+         input 
+            width: 100%
+            margin-right: 0
+            margin-bottom: 10px
+         button 
+            width: 100%
+   .about 
+      &__pic 
+         width: 100%
+         margin-left: 0
+      &__btn 
+         width: 100%
+   .accordeon
+      margin-top: 20px
+   .faq .accordeon__button
+      font-size: 14px
+      line-height: 135%
+      border-radius: 10px
+   .faq .accordeon__item
+      margin-bottom: 10px
+   .faq .accordeon__button:after 
+      left: inherit
+      bottom: inherit
+      right: 23px
+      top: 32px
+   .faq .panel__info
+      font-size: 14px
+      line-height: 135%
+   .faq .panel__text
+      padding: 20px
+   .order 
+      padding: 50px 0px 40px
+      &__title 
+         line-height: 130%
+         text-align: center
+         font-size: 20px
+      &__content 
+         padding: 20px
+         margin-top: -46px
+   .order__box img
+      top: -18px
+   .order .header__block
+      width: 100%
+      p
+         font-size: 14px
+         text-align: center
+         line-height: 135%
+   .order .header__one
+      font-size: 14px
+      line-height: 135%
+      text-align: center
+      margin: 0 auto
+   .order .header__flex
+      margin-bottom: 30px
+   .order .how__form button
+      width: 100%
+   .footer .nav__logo
+      font-size: 24px
+   .footer 
+      padding: 26px 0
+      &__text 
+         font-size: 14px
+         line-height: 135%
+         margin-top: 30px
+      &__com 
+         text-align: center
+   .footer #map
+      height: 300px
+      margin-bottom: 27px
+   .menu .whats
+      width: 97%
+   .popup-call__box
+      width: 100% !important
+      margin-left: 0 !important
+      left: 0 !important
+      padding-bottom: 20px
+      height: auto
+   .arcticmodal-container_i
+      width: 100%
+   .popup__fig2 
+      right: -50px
+      top: inherit
+      width: 100px
+      bottom: -24px
+   #popup-thank .popup-call__box
+      padding: 44px 20px
+   .calc__name
+      font-size: 20px
+      line-height: 130%
+   .popup-call__box .custom-checkbox + label::before
+      top: 2px
+   .selectCF .titleCF
+      overflow: hidden
+      max-width: 83%
+      text-overflow: ellipsis
+      position: relative
+      white-space: nowrap
+      font-size: 14px
+   .selectCF li ul li
+      font-size: 14px
+   .bread 
+      flex-wrap: wrap
+      margin-bottom: 12px
+      a 
+         margin-bottom: 8px
+   .art 
+      padding: 12px 0 8px
+   .page h1
+      font-size: 22px
+      line-height: 130%
+   .page h2
+      font-size: 18px
+      line-height: 130%
+      margin-bottom: 23px
+   .art__text
+      font-size: 14px
+      line-height: 135%
+   .art__content 
+      margin-bottom: 26px
+   .art__sub
+      font-size: 12px
+      margin-bottom: 48px
+   .art__pic
+      margin-bottom: 1px
+   .art__item h2
+      font-size: 20px
+      line-height: 130%
+   .art__list li
+      font-size: 14px
+      line-height: 135%
+   .art__list
+      padding-left: 20px
+   .art__item
+      margin-bottom: 47px
+   .art__list_2 li
+      font-size: 14px
+      line-height: 135%
+   .art__list_2
+      padding-left: 20px
+   .art__name
+      font-size: 20px
+      line-height: 130%
+      margin-bottom: 13px
+   .art__el
+      font-size: 14px
+      line-height: 135%
+   .item2 h2
+      font-size: 20px
+      margin-bottom: 14px
+   .item2 .item__arrows .arr
+      width: 45px
+      height: 45px
+      border-radius: 10px
+   .item2 .item__arrows
+      top: 442px
+   .item2 .swiper2
+      height: 420px
+   .item2 .swiper-pagination2
+      margin-top: -10px
+   .ab__pic
+      position: absolute
+      top: -337px
+      left: 50%
+      margin-left: -125px
+      width: 250px
+   .ab h2
+      margin-bottom: 350px
+   .ab__text
+      font-size: 14px
+      line-height: 135%
+   .error__text
+      font-size: 14px
+      line-height: 135%
+      margin-top: -15px
+   .error__btn
+      width: 100%
+   .error__box
+      padding-bottom: 0
+   .ul 
+      flex-direction: column !important
+      li 
+         margin: 0 auto 40px !important
+         a 
+            font-size: 20px !important
