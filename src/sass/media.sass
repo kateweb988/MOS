@@ -84,6 +84,36 @@
       .menu__bottom 
          margin-left: 10px
          padding-top: 30px
+   // .menu2.active, .menu3.active
+   //    transform: translateY(0)
+   //    opacity: 1
+   // .menu-btn2.active, .menu-btn3.active 
+   //    overflow: visible
+   //    position: absolute
+   //    right: -200px
+   //    top: -120px
+   //    background: url(/img/close.svg) no-repeat
+   //    z-index: 12
+   //    width: 13px
+   //    height: 13px
+   //    opacity: 1
+   // .menu-btn3.active 
+   //    right: inherit
+   //    top: -78px
+   //    left: 347px
+   // .menu3.active 
+   //    transform: translateY(0)
+   //    opacity: 1
+   //    right: inherit
+   //    left: -11px
+   //    top: -91px
+   // .menu-btn2, .menu-btn3
+   //    &:hover 
+   //       opacity: 0
+   //       overflow: visible
+   //       .menu2, .menu3 
+   //          transform: translateY(-100%)
+   //          opacity: 0
    .whats
       display: none
    .menu.active
@@ -180,10 +210,6 @@
       padding: 50px 20px
    .what__list
       max-width: 509px
-   .what .menu3.active
-      top: -55px
-   .what .menu-btn3.active
-      top: -43px
    .how__wrap
       margin-right: 0
       margin-bottom: 10px
@@ -235,6 +261,20 @@
    .ab 
       h2
          margin-bottom: 550px
+   .what__list
+      li 
+         br 
+            display: none
+   .what .menu-btn2
+      opacity: 1
+      overflow: visible
+      position: absolute
+      top: inherit
+      bottom: 7px
+      left: 184px
+      right: inherit
+   .what .menu-btn3
+      left: 238px
 @media ( max-width: 991px )
    input, textarea, select
       -webkit-appearance: none
@@ -306,17 +346,8 @@
       margin-bottom: 25px
    .what__list li:before
       top: 8px
-   .what .menu-btn3
+   .ww2, .ww 
       display: none
-   .what .ww2
-      display: none
-   .what .menu2, .what .menu3
-      top: -149px
-      right: -190px
-      width: 336px
-   .what .menu-btn2.active, .what .menu-btn3.active
-      right: -175px
-      top: -138px
    .what__btn
       margin-top: 0
    .faq .accordeon__button
@@ -358,6 +389,17 @@
       width: 100%
    .error__box
       padding-bottom: 50px
+   .what .menu-btn2
+      bottom: -2px
+      left: 480px
+      right: inherit
+   .what .menu-btn3 
+      left: 115px
+      bottom: -2px
+   .what .menu3
+      right: -214px
+   .what .menu3:before
+      left: 42%
 @media screen and (max-width: 767px)
    .header__fig2
       width: 74%
@@ -397,24 +439,8 @@
       margin-top: 20px
    .get h2 br 
       display: none
-   .what .ww, .what .menu-btn2, .what .menu-btn3 
-      top: inherit
-      right: inherit
-      left: 159px
-      bottom: 1px
-      width: 20px
-      height: 20px
-   .what .menu2.active, .what .menu3.active 
-      opacity: 1
-      right: inherit
-      left: 3px
-      top: -130px
    .what__list li
       font-size: 16px
-   .what .menu-btn2.active, .what .menu-btn3.active 
-      right: inherit
-      top: -125px
-      left: 313px
    .how__wrap
       width: 100%
       padding: 20px
@@ -469,6 +495,10 @@
       margin-bottom: 5px
    .art__block
       padding: 20px
+   .what .menu-btn2
+      left: 149px
+   .what .menu-btn3
+      left: 196px
 @media screen and (max-width: 576px)
    button:active, button:focus 
       outline: none
@@ -761,20 +791,6 @@
       line-height: 135%
       font-size: 14px
       margin-bottom: 20px
-   .what .ww, .what .menu-btn2, .what .menu-btn3
-      bottom: 0
-      left: 84px
-   .what .menu2.active, .what .menu3.active 
-      right: inherit
-      left: 50%
-      top: -130px
-      width: 290px
-      margin-left: -145px
-   .what .menu2:before, .what .menu3:before
-      left: 40%
-   .what .menu-btn2.active, .what .menu-btn3.active
-      top: -118px
-      left: 248px
    .how
       h2 
          font-size: 22px
@@ -987,3 +1003,29 @@
          margin: 0 auto 40px !important
          a 
             font-size: 20px !important
+   .what .menu-btn2
+      left: 77px
+   .what .menu2 
+      width: 290px
+      left: -105px
+      top: -169px
+      min-height: 139px
+      display: flex
+      align-items: center
+      justify-content: center
+   .what .menu2:before
+      bottom: -37px
+      left: 41%
+      margin-left: -19px
+   .what .menu-btn3 
+      left: 115px
+   .what .menu3
+      width: 290px
+      right: -124px
+      top: -167px
+      min-height: 139px
+      display: flex
+      align-items: center
+      justify-content: center
+   .what .menu3:before
+      left: 54%

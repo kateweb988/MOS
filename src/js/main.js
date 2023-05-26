@@ -706,22 +706,22 @@ document.addEventListener("DOMContentLoaded", () => {
     menu.classList.toggle('active');
   });
 });
-document.addEventListener("DOMContentLoaded", () => {
-  let menuBtn2 = document.querySelector('.menu-btn2');
-  let menu2 = document.querySelector('.menu2');
-  menuBtn2.addEventListener('click', function () {
-    menuBtn2.classList.toggle('active');
-    menu2.classList.toggle('active');
-  });
-});
-document.addEventListener("DOMContentLoaded", () => {
-  let menuBtn3 = document.querySelector('.menu-btn3');
-  let menu3 = document.querySelector('.menu3');
-  menuBtn3.addEventListener('click', function () {
-    menuBtn3.classList.toggle('active');
-    menu3.classList.toggle('active');
-  });
-});
+// document.addEventListener("DOMContentLoaded", () => {
+//   let menuBtn2 = document.querySelector('.menu-btn2');
+//   let menu2 = document.querySelector('.menu2');
+//   menuBtn2.addEventListener('click', function () {
+//     menuBtn2.classList.toggle('active');
+//     menu2.classList.toggle('active');
+//   });
+// });
+// document.addEventListener("DOMContentLoaded", () => {
+//   let menuBtn3 = document.querySelector('.menu-btn3');
+//   let menu3 = document.querySelector('.menu3');
+//   menuBtn3.addEventListener('click', function () {
+//     menuBtn3.classList.toggle('active');
+//     menu3.classList.toggle('active');
+//   });
+// });
 document.addEventListener("DOMContentLoaded", () => {
   $(document).ready(function () {
     $(".youtube-link").grtyoutube({

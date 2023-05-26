@@ -1142,25 +1142,38 @@ input:-moz-placeholder
    .menu-btn2, .menu-btn3 
       width: 24px
       height: 24px
-      position: absolute
-      right: -32px
-      top: 9px
+      position: relative
+      right: 0px
+      top: 8px
+      margin-left: 8px
       z-index: 2
       overflow: hidden
       background: url(/img/w3.svg) no-repeat
       cursor: pointer
-      opacity: 0
+      opacity: 1
       transition: 0s
    .menu-btn3 
       position: absolute
-      right: inherit
+      left: 159px
+      bottom: 8px
       top: inherit
-      bottom: 7px
-      left: 168px
+      &:hover 
+         opacity: 1
+         overflow: visible
+         .menu3 
+            transform: translateY(0)
+            opacity: 1
+   .menu-btn2
+       &:hover 
+         opacity: 1
+         overflow: visible
+         .menu2 
+            transform: translateY(0)
+            opacity: 1
    .menu2, .menu3
       position: absolute
-      top: -129px
-      right: -215px
+      top: -134px
+      right: -183px
       transform: translateY(-100%)
       transition: transform 0.5s
       z-index: 10
@@ -1186,34 +1199,12 @@ input:-moz-placeholder
          width: 40px
          height: 40px
          background: url(/img/pol.svg) no-repeat
-   .menu2.active, .menu3.active
-      transform: translateY(0)
-      opacity: 1
-   .menu-btn2.active, .menu-btn3.active 
-      overflow: visible
-      position: absolute
-      right: -200px
-      top: -120px
-      background: url(/img/close.svg) no-repeat
-      z-index: 12
-      width: 13px
-      height: 13px
-      opacity: 1
-   .menu-btn3.active 
-      right: inherit
-      top: -78px
-      left: 347px
-   .menu3.active 
-      transform: translateY(0)
-      opacity: 1
-      right: inherit
-      left: -11px
-      top: -91px
    .ww 
       position: absolute
       right: -33px
       top: 8px
       pointer-events: none
+      display: none
    .ww2 
       position: absolute
       right: inherit
@@ -1221,6 +1212,12 @@ input:-moz-placeholder
       pointer-events: none
       bottom: 7px
       left: 168px
+      display: none
+   .menu2, .menu3
+      display: flex
+      align-items: center
+      justify-content: center
+      min-height: 102px
 .how
    padding: 21px 0 40px
    h2 
@@ -1866,3 +1863,5 @@ input:-moz-placeholder
 #popup-calc input.error 
    background: url(/img/error.svg) no-repeat 97% 55%
    transition: 0s
+.footer3 
+   border: none
