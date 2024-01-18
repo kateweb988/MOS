@@ -308,64 +308,64 @@ input.error {
 
 @font-face {
   font-family: 'HelveticaNeueCyr';
-  src: url("/fonts/HelveticaNeueCyr-Medium.eot");
-  src: url("/fonts/HelveticaNeueCyr-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/HelveticaNeueCyr-Medium.woff2") format("woff2"), url("/fonts/HelveticaNeueCyr-Medium.woff") format("woff"), url("/fonts/HelveticaNeueCyr-Medium.ttf") format("truetype"), url("/fonts/HelveticaNeueCyr-Medium.svg#HelveticaNeueCyr-Medium") format("svg");
+  src: url("../fonts/HelveticaNeueCyr-Medium.eot");
+  src: url("../fonts/HelveticaNeueCyr-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueCyr-Medium.woff2") format("woff2"), url("../fonts/HelveticaNeueCyr-Medium.woff") format("woff"), url("../fonts/HelveticaNeueCyr-Medium.ttf") format("truetype"), url("../fonts/HelveticaNeueCyr-Medium.svg#HelveticaNeueCyr-Medium") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: 'Roboto';
-  src: url("/fonts/Roboto-Regular.eot");
-  src: url("/fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/Roboto-Regular.woff2") format("woff2"), url("/fonts/Roboto-Regular.woff") format("woff"), url("/fonts/Roboto-Regular.ttf") format("truetype"), url("/fonts/Roboto-Regular.svg#Roboto-Regular") format("svg");
+  src: url("../fonts/Roboto-Regular.eot");
+  src: url("../fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto-Regular.ttf") format("truetype"), url("../fonts/Roboto-Regular.svg#Roboto-Regular") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: 'HelveticaNeueCyr';
-  src: url("/fonts/HelveticaNeueCyr-Roman.eot");
-  src: url("/fonts/HelveticaNeueCyr-Roman.eot?#iefix") format("embedded-opentype"), url("/fonts/HelveticaNeueCyr-Roman.woff2") format("woff2"), url("/fonts/HelveticaNeueCyr-Roman.woff") format("woff"), url("/fonts/HelveticaNeueCyr-Roman.ttf") format("truetype"), url("/fonts/HelveticaNeueCyr-Roman.svg#HelveticaNeueCyr-Roman") format("svg");
+  src: url("../fonts/HelveticaNeueCyr-Roman.eot");
+  src: url("../fonts/HelveticaNeueCyr-Roman.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueCyr-Roman.woff2") format("woff2"), url("../fonts/HelveticaNeueCyr-Roman.woff") format("woff"), url("../fonts/HelveticaNeueCyr-Roman.ttf") format("truetype"), url("../fonts/HelveticaNeueCyr-Roman.svg#HelveticaNeueCyr-Roman") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: 'Roboto';
-  src: url("/fonts/Roboto-Medium.eot");
-  src: url("/fonts/Roboto-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/Roboto-Medium.woff2") format("woff2"), url("/fonts/Roboto-Medium.woff") format("woff"), url("/fonts/Roboto-Medium.ttf") format("truetype"), url("/fonts/Roboto-Medium.svg#Roboto-Medium") format("svg");
+  src: url("../fonts/Roboto-Medium.eot");
+  src: url("../fonts/Roboto-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto-Medium.woff") format("woff"), url("../fonts/Roboto-Medium.ttf") format("truetype"), url("../fonts/Roboto-Medium.svg#Roboto-Medium") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: 'Segoe UI';
-  src: url("/fonts/SegoeUI-Bold.eot");
-  src: url("/fonts/SegoeUI-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/SegoeUI-Bold.woff2") format("woff2"), url("/fonts/SegoeUI-Bold.woff") format("woff"), url("/fonts/SegoeUI-Bold.ttf") format("truetype"), url("/fonts/SegoeUI-Bold.svg#SegoeUI-Bold") format("svg");
+  src: url("../fonts/SegoeUI-Bold.eot");
+  src: url("../fonts/SegoeUI-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/SegoeUI-Bold.woff2") format("woff2"), url("../fonts/SegoeUI-Bold.woff") format("woff"), url("../fonts/SegoeUI-Bold.ttf") format("truetype"), url("../fonts/SegoeUI-Bold.svg#SegoeUI-Bold") format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: 'Segoe UI';
-  src: url("/fonts/SegoeUI.eot");
-  src: url("/fonts/SegoeUI.eot?#iefix") format("embedded-opentype"), url("/fonts/SegoeUI.woff2") format("woff2"), url("/fonts/SegoeUI.woff") format("woff"), url("/fonts/SegoeUI.ttf") format("truetype"), url("/fonts/SegoeUI.svg#SegoeUI") format("svg");
+  src: url("../fonts/SegoeUI.eot");
+  src: url("../fonts/SegoeUI.eot?#iefix") format("embedded-opentype"), url("../fonts/SegoeUI.woff2") format("woff2"), url("../fonts/SegoeUI.woff") format("woff"), url("../fonts/SegoeUI.ttf") format("truetype"), url("../fonts/SegoeUI.svg#SegoeUI") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: 'HelveticaNeueCyr';
-  src: url("/fonts/HelveticaNeueCyr-Black.eot");
-  src: url("/fonts/HelveticaNeueCyr-Black.eot?#iefix") format("embedded-opentype"), url("/fonts/HelveticaNeueCyr-Black.woff2") format("woff2"), url("/fonts/HelveticaNeueCyr-Black.woff") format("woff"), url("/fonts/HelveticaNeueCyr-Black.ttf") format("truetype"), url("/fonts/HelveticaNeueCyr-Black.svg#HelveticaNeueCyr-Black") format("svg");
+  src: url("../fonts/HelveticaNeueCyr-Black.eot");
+  src: url("../fonts/HelveticaNeueCyr-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueCyr-Black.woff2") format("woff2"), url("../fonts/HelveticaNeueCyr-Black.woff") format("woff"), url("../fonts/HelveticaNeueCyr-Black.ttf") format("truetype"), url("../fonts/HelveticaNeueCyr-Black.svg#HelveticaNeueCyr-Black") format("svg");
   font-weight: 900;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: 'Segoe UI';
-  src: url("/fonts/SegoeUIBlack.eot");
-  src: url("/fonts/SegoeUIBlack.eot?#iefix") format("embedded-opentype"), url("/fonts/SegoeUIBlack.woff2") format("woff2"), url("/fonts/SegoeUIBlack.woff") format("woff"), url("/fonts/SegoeUIBlack.ttf") format("truetype"), url("/fonts/SegoeUIBlack.svg#SegoeUIBlack") format("svg");
+  src: url("../fonts/SegoeUIBlack.eot");
+  src: url("../fonts/SegoeUIBlack.eot?#iefix") format("embedded-opentype"), url("../fonts/SegoeUIBlack.woff2") format("woff2"), url("../fonts/SegoeUIBlack.woff") format("woff"), url("../fonts/SegoeUIBlack.ttf") format("truetype"), url("../fonts/SegoeUIBlack.svg#SegoeUIBlack") format("svg");
   font-weight: 900;
   font-style: normal;
   font-display: swap; }
@@ -476,7 +476,7 @@ input:-moz-placeholder {
   border-radius: 50%; }
 
 .custom-checkbox:checked + label::before {
-  background: url(/img/check.svg) no-repeat center center;
+  background: url(../img/check.svg) no-repeat center center;
   background-color: #1C70EE;
   padding: 44px 0; }
 
@@ -514,7 +514,7 @@ input:-moz-placeholder {
   content: "";
   position: absolute;
   right: inherit;
-  background: url(/img/ar1.svg) no-repeat center center;
+  background: url(../img/ar1.svg) no-repeat center center;
   width: 14px;
   left: 0;
   height: 14px;
@@ -529,7 +529,7 @@ input:-moz-placeholder {
   content: "";
   position: absolute;
   right: inherit;
-  background: url(/img/ar2.svg) no-repeat center center;
+  background: url(../img/ar2.svg) no-repeat center center;
   width: 14px;
   left: 0;
   height: 2px;
@@ -636,7 +636,7 @@ input:-moz-placeholder {
   .popup-call__box .custom-checkbox:checked + label::before {
     width: 16px;
     height: 16px;
-    background: url(/img/check.svg) no-repeat center center;
+    background: url(../img/check.svg) no-repeat center center;
     max-width: 16px;
     background-color: #1C70EE;
     padding: 0; }
@@ -704,7 +704,7 @@ input:-moz-placeholder {
   height: 15px;
   text-align: center;
   vertical-align: top;
-  background: url(/img/down.svg) no-repeat !important;
+  background: url(../img/down.svg) no-repeat !important;
   position: absolute;
   right: 10px;
   top: 23px; }
@@ -1061,7 +1061,7 @@ input:-moz-placeholder {
     border-top: 1px solid #D2DBE8; }
 
 .header__wrap {
-  background: url(/img/bg.png) no-repeat center center/cover;
+  background: url(../img/bg.png) no-repeat center center/cover;
   padding: 107px 0 101px; }
 
 .header__box {
@@ -1337,7 +1337,7 @@ input:-moz-placeholder {
   .now .custom-checkbox:checked + label::before {
     width: 16px;
     height: 16px;
-    background: url(/img/check.svg) no-repeat center center;
+    background: url(../img/check.svg) no-repeat center center;
     max-width: 16px;
     background-color: #1C70EE;
     padding: 0; }
@@ -1607,7 +1607,7 @@ input:-moz-placeholder {
     margin-left: 8px;
     z-index: 2;
     overflow: hidden;
-    background: url(/img/w3.svg) no-repeat;
+    background: url(../img/w3.svg) no-repeat;
     cursor: pointer;
     opacity: 1;
     transition: 0s; }
@@ -1656,7 +1656,7 @@ input:-moz-placeholder {
       margin-left: -20px;
       width: 40px;
       height: 40px;
-      background: url(/img/pol.svg) no-repeat; }
+      background: url(../img/pol.svg) no-repeat; }
   .what .ww {
     position: absolute;
     right: -33px;
@@ -2045,7 +2045,7 @@ input:-moz-placeholder {
       width: 6px;
       height: 10px;
       margin: 0 14px;
-      background: url(/img/bread.svg) no-repeat; }
+      background: url(../img/bread.svg) no-repeat; }
     .bread a:last-child:after {
       display: none; }
 
@@ -2344,7 +2344,7 @@ input:-moz-placeholder {
     opacity: 1; }
 
 #popup-calc input.error {
-  background: url(/img/error.svg) no-repeat 97% 55%;
+  background: url(../img/error.svg) no-repeat 97% 55%;
   transition: 0s; }
 
 .footer3 {
@@ -2367,7 +2367,7 @@ input:-moz-placeholder {
     top: 15px;
     z-index: 22;
     overflow: hidden;
-    background: url(/img/burger.svg) no-repeat center center;
+    background: url(../img/burger.svg) no-repeat center center;
     width: 34px;
     height: 34px;
     background-color: #F0F6FF;
@@ -2446,7 +2446,7 @@ input:-moz-placeholder {
     position: fixed;
     right: 25px;
     top: 15px;
-    background: url(/img/bur.svg) no-repeat 10px 10px;
+    background: url(../img/bur.svg) no-repeat 10px 10px;
     background-color: #F0F6FF; }
   .menu-btn, .menu {
     display: block; }
